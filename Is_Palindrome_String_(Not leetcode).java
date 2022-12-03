@@ -1,7 +1,7 @@
 // This code looking for String which is palindorme or not
 // Like xox = xox >> true , xoy = yox > false
 public class Solution{
-    public String restoreString(String s) {
+    public String checkString(String s) {
         List<Character> characterList = new ArrayList<>();
         for(int i=s.length()-1;i>=0;i--){
             characterList.add(s.charAt(i));
